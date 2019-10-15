@@ -25,7 +25,7 @@ def find_greater_pair(src)
   
   src.length.times do |index|
     
-    new_array <<(src[index][0] > src[index][1]? src[index][0] : src[index][1])
+    new_array << (src[index][0] > src[index][1]? src[index][0] : src[index][1])
   end 
 end
 
