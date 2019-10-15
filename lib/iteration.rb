@@ -24,7 +24,7 @@ def find_greater_pair(src)
   new_array = []
   
   src.length.times do |index|
-    if src[index][0] > src[index][1]? 
+    (src[index][0] > src[index][1])? 
       new_array = 
     end 
   end 
